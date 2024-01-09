@@ -107,7 +107,7 @@ html::-webkit-scrollbar-thumb{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/background.jpg) no-repeat;
+    background: url(images/bg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -116,14 +116,14 @@ html::-webkit-scrollbar-thumb{
     float: left;
     text-align: center;
     padding: 4rem;
-    color: rgb(211, 211, 204);
+    color: rgb(7, 7, 7);
 }
 .home .homeContent h2{
     font-size: 7rem;
     font-weight: bolder;
     margin-bottom: 2rem;
     line-height: 7rem;
-    color: rgb(211, 211, 204); 
+    color: rgb(8, 8, 0); 
     text-shadow: var(--box-shadow);
 }
 .home .homeContent p{
@@ -461,9 +461,9 @@ section{
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 25rem;
+        width: 18rem;
         background-color: var(--white);
-        height: 80vh;
+        height: 45vh;
     }
     .header .navbar.active{
         right: 0;
