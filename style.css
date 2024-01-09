@@ -109,7 +109,7 @@ html::-webkit-scrollbar-thumb{
     align-items: center;
     background: url(images/bg.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top left;
 }
 .home .homeContent{
     width: 50%;
