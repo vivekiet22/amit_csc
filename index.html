@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+    <title>Amit CSC</title>
+
+    <!-- swiper link  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- cdn icon link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header section start here  -->
+    <header class="header">
+      <div class="logoContent">
+        <a href="#" class="logo"><img src="i" alt="" /></a>
+        <h1 class="logoName">Amit CSC</h1>
+      </div>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">Services</a>
+        <a href="#product">Gallery</a>
+        <a target="_blank" href="tel:+91-9984170465">Call Us</a>
+        <a target="_blank" href="https://maps.app.goo.gl/FxzkbGZPXtCnQBh77">Get Direction</a>
+        <a href="#contact">contact us</a>
+      </nav>
+
+      <!-- for searching..... -->
+
+      <div class="icon">
+        <i class="fas fa-search" id="search"></i>
+        <i class="fas fa-bars" id="menu-bar"></i>
+      </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+    <section class="home" id="home">
+      <div class="homeContent">
+        <h2>जन सेवा केन्द्र</h2>
+        <p>
+          "Step into Jan Seva Kendra, where community service meets convenience! Our team is ready to assist you with a warm Namaste and a commitment to excellent service."
+        </p>
+        <!-- <div class="home-btn">
+          <a href="#"><button>see more</button></a>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- home section end here  -->
+    
+    <!-- Services starts here -->
+    <section class="product" id="services">
+      <div class="heading">
+        <h2>Gallery</h2>
+      </div>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
+      
+        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+      </div>
+    <!-- services ends here -->
+
+    <!-- product section start here  -->
+    <section class="product" id="product">
+      <div class="heading">
+        <h2>Gallery</h2>
+      </div>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="images/main.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/backgroun.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/back.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- product row for sweets -->
+      <!-- <div class="swiper product-row">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="images/gulabJamun.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Gulab Jamun</h3>
+              <p>
+                Gulab jamun is a classic Indian sweet made with milk solids, sugar, rose water & cardamom powder. It is a very famous Indian dessert .
+              </p>
+              <div class="orderNow">
+                 
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="images/dahipapdi.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Dahi Papdi</h3>
+              <p>
+                An easy and quick yoghurt based chaat recipe made with deep-fried flat puri with other chaat chutneys.
+              </p>
+              <div class="orderNow">
+                 
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="images/kajuKatli.jpeg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Kaju Katli</h3>
+              <p>
+                Kaju katli, also known as kaju barfi, is an Indian dessert similar to a barfi. 
+              </p>
+              <div class="orderNow">
+                 
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="images/samosa.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Samosa</h3>
+              <p>
+                Samosa is a deep fried pastry with a spiced filling usually made with potatoes, spices and herbs.
+              </p>
+              <div class="orderNow">
+                 
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="images/launlatta.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Launglata</h3>
+              <p>
+                Laung Lata is crunchy on outside and soft on inside. This delicious khoya stuffed dish is mouth watering and loved by all.
+              </p>
+              <div class="orderNow">
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+       -->
+    </section>
+
+    <!-- product section end here  -->
+
+    <!-- review section start here  -->
+
+    <section class="review" id="review">
+        <div class="heading">
+            <h2>Google Map Reviews</h2>
+        </div>
+        <div class='sk-ww-google-reviews' data-embed-id='2533547'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>
+    </section>
+    <!-- review section ends here  -->
+    
+
+    <!-- footer section start here  -->
+
+    <footer class="footer" id="contact">
+      <div class="box-container">
+        <div class="mainBox">
+          <div class="content">
+            <a href="#"><img src="images/logo.png" alt="" /></a>
+            <h1 class="logoName">Amit CSC Banki khurd (जन सेवा केन्द्र)</h1>
+          </div>
+
+          <p>
+            Thank you for your support. We truly appreciate your efforts and
+            look forward to serving you again.
+          </p>
+        </div>
+
+        <!-- <div class="timing">
+               <h3> our timing</h3>
+            </div> -->
+        
+        <div class="box" id="contact">
+          <h3>Contact Info</h3>
+          <a href="#"> <i class="fas fa-phone"></i>+91 9984170465 ,  +91 8004145105</a>
+          <a href="#">
+            <i class="fas fa-envelope"></i>amit34916@gmail.com</a
+          >
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box mainBox">
+            <h3>Address</h3>
+            <p>Banki Khurd, Barachawar, Mohammadabad, Near Brahmasthan, Uttar Pradesh 233229</p>
+          </div>
+
+      
+          <div class="box">
+              <h1>location</h1>
+              <br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.411381184923!2d83.81737919999999!3d25.7569722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992111e5ca6197f%3A0x33238aa509dfb84!2zQW1pdCBDU0MgQmFua2kga2h1cmQgKOCknOCkqCDgpLjgpYfgpLXgpL4g4KSV4KWH4KSo4KWN4KSm4KWN4KSwKQ!5e0!3m2!1sen!2sin!4v1704792407429!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+      <!-- <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div> -->
+      <hr>
+      <div class="credit">
+        Copyright © 2024  <span>AMIT CSC</span>
+      </div>
+    </footer>
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+  </body>
+</html>
