@@ -51,7 +51,7 @@ html::-webkit-scrollbar-thumb{
 }
 .header .logoContent .logoName {
     color: var(--black);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bolder;
 }
 
@@ -148,11 +148,26 @@ html::-webkit-scrollbar-thumb{
 section{
     padding: 2rem 7%;
 }
+
+#allservices{
+    height: 250px;
+    overflow: auto;
+}
 .heading{
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
     color: var(--black);
+}
+.heading h1{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: var(--black);
+
+}
+
+.alert{
+    font-size: large;
 }
 
 .product .product-row{
@@ -185,7 +200,7 @@ section{
     margin-bottom: 4rem;
 }
 .product .product-row .product-content h3{
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--black);
 }
 .product .product-row .product-content p{
